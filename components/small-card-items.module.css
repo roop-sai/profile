@@ -1,0 +1,43 @@
+.elementcardinfoCardsmalliIcon {
+  height: 36px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.body,
+.elementcardinfoCardsmalliIcon,
+.title {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.title {
+  line-height: 26px;
+  font-weight: 500;
+}
+.body {
+  font-size: var(--medium-12-size);
+  line-height: 18px;
+  color: var(--colour-main-grey-600);
+}
+.smallCardItems,
+.titleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.titleParent {
+  align-self: stretch;
+  gap: var(--gap-7xs);
+}
+.smallCardItems {
+  flex: 1;
+  gap: var(--gap-sm);
+  min-width: 166px;
+  text-align: left;
+  font-size: var(--regular-16-size);
+  color: var(--colour-main-blue-900);
+  font-family: var(--regular-14);
+}
